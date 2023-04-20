@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import FirstNav from './Components/FirstNav/FirstNav';
 import SecondNav from './Components/SecondNav/SecondNav';
+import ThirdNav from './Components/ThirdNav/ThirdNav';
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       <FirstNav></FirstNav>
 
       <SecondNav></SecondNav>
+
+      <ThirdNav></ThirdNav>
     </div>
   );
 }
